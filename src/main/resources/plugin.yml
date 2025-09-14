@@ -1,0 +1,7 @@
+name: ChatBridge
+version: '1.1'
+main: org.giacculu.chatBridge.ChatBridge
+api-version: '1.20'
+authors: [ giacculu ]
+description: ChatBridge is a lightweight plugin that links your Minecraft server chat to Discord. Keep your community connected with real-time message forwarding, easy configuration, and reliable performance.
+website:

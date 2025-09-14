@@ -1,0 +1,24 @@
+# ==============================
+#       ChatBridge Config
+# ==============================
+
+# --- Discord Webhooks ---
+# Insert the Discord webhook URLs where the plugin will send messages.
+# Leave empty if you don’t want to use a specific one.
+chat-discord-webhook: ""        # Webhook for chat messages
+connection-discord-webhook: ""  # Webhook for join/quit messages
+command-discord-webhook: ""     # Webhook for player command messages
+console-discord-webhook: ""     # Webhook for console messages
+death-discord-webhook: ""       # Webhook for death messages
+
+# --- Message Formats ---
+# You can customize how each message type will appear on Discord.
+# Available variables:
+#   %player%  = player name
+#   %message% = sent message
+chat-format: "**%player%:** %message%"
+join-format: "✅ **%player%** has joined the server!"
+quit-format: "❌ **%player%** has left the server!"
+console-format: "🖥️ [Console]: %message%"
+command-format: "⌨️ [Command] **%player%**: %message%"
+death-format: "💀 %message%"
